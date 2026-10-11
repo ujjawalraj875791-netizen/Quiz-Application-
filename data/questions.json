@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "category": "Python",
+    "question": "Which keyword defines a function in Python?",
+    "options": [
+      "func",
+      "define",
+      "def",
+      "function"
+    ],
+    "answer": 2,
+    "explanation": "Python uses def to define a function."
+  },
+  {
+    "id": 2,
+    "category": "Python",
+    "question": "Which collection stores unique unordered values?",
+    "options": [
+      "List",
+      "Tuple",
+      "Set",
+      "String"
+    ],
+    "answer": 2,
+    "explanation": "A set stores unique elements."
+  },
+  {
+    "id": 3,
+    "category": "Python",
+    "question": "What does len([10, 20, 30]) return?",
+    "options": [
+      "2",
+      "3",
+      "30",
+      "0"
+    ],
+    "answer": 1,
+    "explanation": "The list contains three elements."
+  },
+  {
+    "id": 4,
+    "category": "Python",
+    "question": "Which method adds one element to the end of a list?",
+    "options": [
+      "append()",
+      "add()",
+      "push()",
+      "insertEnd()"
+    ],
+    "answer": 0,
+    "explanation": "list.append() adds one item at the end."
+  },
+  {
+    "id": 5,
+    "category": "Python",
+    "question": "Which symbol is used for exponentiation in Python?",
+    "options": [
+      "^",
+      "**",
+      "//",
+      "%%"
+    ],
+    "answer": 1,
+    "explanation": "** performs exponentiation."
+  },
+  {
+    "id": 6,
+    "category": "Python",
+    "question": "What is the result of 10 // 3?",
+    "options": [
+      "3.33",
+      "3",
+      "4",
+      "1"
+    ],
+    "answer": 1,
+    "explanation": "// performs floor division."
+  },
+  {
+    "id": 7,
+    "category": "Python",
+    "question": "Which data type is immutable?",
+    "options": [
+      "List",
+      "Set",
+      "Dictionary",
+      "Tuple"
+    ],
+    "answer": 3,
+    "explanation": "Tuples cannot be modified after creation."
+  },
+  {
+    "id": 8,
+    "category": "Python",
+    "question": "Which keyword exits a loop immediately?",
+    "options": [
+      "stop",
+      "exit",
+      "break",
+      "return-loop"
+    ],
+    "answer": 2,
+    "explanation": "break terminates the nearest loop."
+  },
+  {
+    "id": 9,
+    "category": "Python",
+    "question": "What does **kwargs collect?",
+    "options": [
+      "Positional arguments",
+      "Keyword arguments",
+      "Only integers",
+      "Lists"
+    ],
+    "answer": 1,
+    "explanation": "**kwargs collects variable-length keyword arguments in a dictionary."
+  },
+  {
+    "id": 10,
+    "category": "Python",
+    "question": "Which module is commonly used for JSON handling?",
+    "options": [
+      "json",
+      "data",
+      "picklejson",
+      "js"
+    ],
+    "answer": 0,
+    "explanation": "The standard json module reads and writes JSON."
+  },
+  {
+    "id": 11,
+    "category": "AI",
+    "question": "Which search algorithm uses a queue and explores shallow nodes first?",
+    "options": [
+      "DFS",
+      "BFS",
+      "Hill Climbing",
+      "A*"
+    ],
+    "answer": 1,
+    "explanation": "Breadth-first search uses a FIFO queue."
+  },
+  {
+    "id": 12,
+    "category": "AI",
+    "question": "What is the main purpose of a heuristic function in informed search?",
+    "options": [
+      "Store files",
+      "Estimate cost to a goal",
+      "Encrypt data",
+      "Create databases"
+    ],
+    "answer": 1,
+    "explanation": "A heuristic estimates remaining cost or distance to the goal."
+  },
+  {
+    "id": 13,
+    "category": "AI",
+    "question": "Which algorithm is commonly used for two-player zero-sum games?",
+    "options": [
+      "Minimax",
+      "K-Means",
+      "Apriori",
+      "Dijkstra"
+    ],
+    "answer": 0,
+    "explanation": "Minimax evaluates optimal moves for opposing players."
+  },
+  {
+    "id": 14,
+    "category": "AI",
+    "question": "Alpha-beta pruning primarily reduces what?",
+    "options": [
+      "Training data",
+      "Game-tree nodes evaluated",
+      "Database size",
+      "Image resolution"
+    ],
+    "answer": 1,
+    "explanation": "It skips branches that cannot affect the minimax decision."
+  },
+  {
+    "id": 15,
+    "category": "AI",
+    "question": "A rational agent chooses an action that maximizes its expected what?",
+    "options": [
+      "File size",
+      "Performance measure",
+      "CPU temperature",
+      "Network speed"
+    ],
+    "answer": 1,
+    "explanation": "Rational agents maximize expected performance according to available information."
+  },
+  {
+    "id": 16,
+    "category": "AI",
+    "question": "Which is a supervised learning task?",
+    "options": [
+      "Clustering",
+      "Classification with labeled data",
+      "Dimensionality reduction",
+      "Association discovery"
+    ],
+    "answer": 1,
+    "explanation": "Supervised learning uses labeled examples."
+  },
+  {
+    "id": 17,
+    "category": "AI",
+    "question": "What does NLP stand for?",
+    "options": [
+      "Neural Logic Processing",
+      "Natural Language Processing",
+      "Numeric Learning Program",
+      "Network Language Protocol"
+    ],
+    "answer": 1,
+    "explanation": "NLP means Natural Language Processing."
+  },
+  {
+    "id": 18,
+    "category": "AI",
+    "question": "Which model is based on conditional probabilities using Bayes' theorem?",
+    "options": [
+      "Naive Bayes",
+      "K-Means",
+      "PCA",
+      "SVM only"
+    ],
+    "answer": 0,
+    "explanation": "Naive Bayes is a probabilistic classifier based on Bayes' theorem."
+  },
+  {
+    "id": 19,
+    "category": "Database",
+    "question": "Which SQL command retrieves data?",
+    "options": [
+      "GET",
+      "SELECT",
+      "FETCHDB",
+      "READ"
+    ],
+    "answer": 1,
+    "explanation": "SELECT retrieves rows from database tables."
+  },
+  {
+    "id": 20,
+    "category": "Database",
+    "question": "Which key uniquely identifies a row?",
+    "options": [
+      "Foreign key",
+      "Primary key",
+      "Index only",
+      "View"
+    ],
+    "answer": 1,
+    "explanation": "A primary key uniquely identifies each row."
+  },
+  {
+    "id": 21,
+    "category": "Database",
+    "question": "Which SQL clause filters rows?",
+    "options": [
+      "WHERE",
+      "GROUP",
+      "FILTER",
+      "LIMITER"
+    ],
+    "answer": 0,
+    "explanation": "WHERE applies row-level filtering conditions."
+  },
+  {
+    "id": 22,
+    "category": "Database",
+    "question": "Which database engine is built into Python's standard library?",
+    "options": [
+      "MongoDB",
+      "SQLite",
+      "Oracle",
+      "PostgreSQL"
+    ],
+    "answer": 1,
+    "explanation": "Python includes the sqlite3 module for SQLite."
+  },
+  {
+    "id": 23,
+    "category": "Database",
+    "question": "What does CRUD stand for?",
+    "options": [
+      "Create Read Update Delete",
+      "Copy Run Upload Download",
+      "Create Run Use Deploy",
+      "Connect Read Upload Drop"
+    ],
+    "answer": 0,
+    "explanation": "CRUD means Create, Read, Update, Delete."
+  },
+  {
+    "id": 24,
+    "category": "Database",
+    "question": "Which SQL command adds a new row?",
+    "options": [
+      "INSERT",
+      "ADDROW",
+      "APPEND",
+      "CREATE ROW"
+    ],
+    "answer": 0,
+    "explanation": "INSERT INTO adds rows to a table."
+  },
+  {
+    "id": 25,
+    "category": "Data Science",
+    "question": "Which chart is useful for showing the distribution of numerical data?",
+    "options": [
+      "Histogram",
+      "Pie chart only",
+      "Network diagram",
+      "Gantt only"
+    ],
+    "answer": 0,
+    "explanation": "Histograms show frequency distributions."
+  },
+  {
+    "id": 26,
+    "category": "Data Science",
+    "question": "Which measure represents the middle value of sorted data?",
+    "options": [
+      "Mean",
+      "Median",
+      "Range",
+      "Variance"
+    ],
+    "answer": 1,
+    "explanation": "The median is the middle value after sorting."
+  },
+  {
+    "id": 27,
+    "category": "Data Science",
+    "question": "What is overfitting?",
+    "options": [
+      "Model performs poorly on training data",
+      "Model memorizes training patterns and generalizes poorly",
+      "Dataset has no rows",
+      "Model has no parameters"
+    ],
+    "answer": 1,
+    "explanation": "Overfitting occurs when a model fits training data too closely and performs poorly on unseen data."
+  },
+  {
+    "id": 28,
+    "category": "Data Science",
+    "question": "Which library is widely used for tabular data in Python?",
+    "options": [
+      "Pandas",
+      "Tkinter",
+      "Flask",
+      "Requests"
+    ],
+    "answer": 0,
+    "explanation": "Pandas provides DataFrame and Series structures for data analysis."
+  },
+  {
+    "id": 29,
+    "category": "Data Science",
+    "question": "What does CSV commonly stand for?",
+    "options": [
+      "Common System Variable",
+      "Comma-Separated Values",
+      "Column Storage Version",
+      "Computer Saved Values"
+    ],
+    "answer": 1,
+    "explanation": "CSV stands for Comma-Separated Values."
+  },
+  {
+    "id": 30,
+    "category": "Data Science",
+    "question": "Which technique scales values to a fixed range such as 0 to 1?",
+    "options": [
+      "Min-max normalization",
+      "One-hot decoding",
+      "Bagging",
+      "Pruning"
+    ],
+    "answer": 0,
+    "explanation": "Min-max normalization maps values to a chosen range."
+  }
+]
